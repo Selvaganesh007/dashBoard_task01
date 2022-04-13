@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Dashbord</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <h2 class="title">Global network portal</h2>
+        <div class="nav-right">
+            <button class="btn">On call</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="side-nav">
+            <nav>
+                <ul>
+                    <li><a href="">A</a></li>
+                    <li><a href="">B</a></li>
+                    <li><a href="">C</a></li>
+                    <li><a href="">D</a></li>
+                    <li><a href="">E</a></li>
+                    <li><a href="">F</a></li>
+                    <li><a href="" id="openModel">+</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <h2 class="dashti">Dashboard</h2>
+            <div class="dashboard">
+                <!-- model delete -->
+                <!-- <canvas id="i"></canvas> -->
+                <!-- <div class="card" id="Card">
+                    <h3 class="card-tit"></h3>
+                    <p class="card-para">Datacenter Overview</p>
+                    <div class="pie-main">
+                        <div class="pie">
+                            <canvas id="myChart" style="width:60%;max-width: 500px"></canvas>
+                        </div>
+                    </div>
+                    <div class="dashboard-card-total ">
+                        <div class="tot1">
+                            <h4 class="dash-card-to-ti ">Interface Total Bandwidth</h4>
+                        </div>
+                        <div class="tot2 ">
+                            <p>40,078</p>
+                            <p>TPBS</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="text" id="Text1">CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility
+                            and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .<br>
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="read-btn" id="Readmore1" onclick="toggleText1()">View More</button>
+                    </div>
+                </div>
+
+                <div class="card" id="card1">
+                    <h3 class="card-tit">Marvel</h3>
+                    <p class="card-para">Datacenter Overview</p>
+                    <div class="pie-main">
+                        <div class="pie">
+                            <canvas id="myChart" style="width:60%;max-width: 500px"></canvas>
+                        </div>
+                    </div>
+                    <div class="dashboard-card-total ">
+                        <div class="tot1">
+                            <h4 class="dash-card-to-ti ">Interface Total Bandwidth</h4>
+                        </div>
+                        <div class="tot2 ">
+                            <p>40,078</p>
+                            <p>TPBS</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="text" id="Text1">CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility
+                            and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .<br>
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="read-btn" id="Readmore1" onclick="toggleText1()">View More</button>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <h3 class="card-tit ">Studio production Network</h3>
+                    <p class="card-para ">Requests Overview</p>
+                    <div class="pie-main">
+                        <div class="pie">
+                            <canvas id="myChart2" style="width:100%;max-width:500px"></canvas>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="text" id="Text2">CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility
+                            and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .<br>
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="read-btn" id="Readmore2" onclick="toggleText2()">View More</button>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <h2 class="p-5" id="title">Motion picture productions</h2>
+                    <p class="big-para p-5" id="dis">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut odit nam quasi laborum harum eius facere esse labore adipisci, ratione dolor voluptatum at ad voluptates? Ab explicabo odio quia rem!</p>
+                    <hr>
+                    <div>
+                        <p class="text" id="Text3" id="content">CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility
+                            and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .<br>
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="read-btn" id="Readmore3" onclick="toggleText3()">View More</button>
+                    </div>
+                </div>
+                <div class="card" id="card4">
+                    <h3>SEARCHILIGHT</h3>
+                    <div class="pie-main">
+                        <div class="pie">
+                            <canvas id="myChart3" style="width:100%;max-width:500px"></canvas>
+                        </div>
+                    </div>
+                    <p class="card-para ">Datacenter Overview</p>
+                    <hr>
+                    <div>
+                        <p class="text" id="Text4">CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility
+                            and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .<br>
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="read-btn" id="Readmore4" onclick="toggleText4()">View More</button>
+                    </div>
+                </div>
+                <div class="card" id="card5">
+                    <h3 class="p-5">TCC TITLE</h3>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80" alt="pic">
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="text" id="Text5">CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility
+                            and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .<br>
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="read-btn" id="Readmore5" onclick="toggleText5()">View More</button>
+                    </div>
+                </div>
+                <div class="card" id="card6">
+                    <h3 class="p-5">LARN MORE</h3>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" alt="pic">
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="text" id="Text6">CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility
+                            and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .<br>
+                        </p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="read-btn" id="Readmore6" onclick="toggleText6()">View More</button>
+                    </div>
+                </div>  -->
+            </div>
+
+            <!-- model form -->
+            <div class="form" id="myModel">
+                <div class="form-close-btn">
+                    <a href="" id="closeModel"><img class="close-icon" src="xmark-solid.svg" alt="close icon"></a>
+                </div>
+                <div class="form-title">
+                    <label for="tit">Title</label>
+                    <input type="text" placeholder="Title" id="form-title">
+                </div>
+                <div class="form-dis">
+                    <label for="tit">Discription</label>
+                    <input type="text" placeholder="Discription" id="form-dis">
+                </div>
+                <div class="form-chart-main">
+                    <div class="form-char-name">
+                        <label for="title">Chart title</label>
+                        <input type="text" placeholder="Enter the 1st chart content" id="form-chart-name1">
+                        <input type="text" placeholder="Enter the 2nd chart content" id="form-chart-name2">
+                        <input type="text" placeholder="Enter the 3rd chart content" id="form-chart-name3">
+                    </div>
+                    <div class="form-chart">
+                        <label for="tit">Chart percentage</label>
+                        <input type="number" placeholder="Chart 1" id="form-chart1">
+                        <input type="number" placeholder="Chart 2" id="form-chart2">
+                        <input type="number" placeholder="Chart 3" id="form-chart3">
+                    </div>
+                </div>
+                <div class="form-chart-type">
+                    <label for="tit">Chart type</label>
+                    <select name="c" id="chart-type">
+                        <option value="scatter">Scatter</option>
+                        <option value="line">Line</option>
+                        <option value="pie">Pie</option>
+                        <option value="bar">Bar</option>
+                    </select>
+                </div>
+                <div class="form-content">
+                    <label for="tit">Content</label>
+                    <input type="text" placeholder="Enter the content" id="form-content">
+                </div>
+                <div class="form-btn">
+                    <button value="submit" class="submit-btn">Submit</button>
+                </div>
+            </div>
+            <!-- for delete button -->
+            <div class="deletemodel" id="delete-model">
+            </div>
+            <div class="sub_btn" id="edit-model">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <h4>The <span class="dis-title">WALT Disnep</span> studios</h4>
+        <p class="footer-para">
+            ©copyright - The Walt Disney Studio Technoloy - Motion Picture Innovation
+        </p>
+    </div>
+    <script src="behave.js"></script>
+</body>
+
+</html>
